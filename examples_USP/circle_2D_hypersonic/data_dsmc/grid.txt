@@ -1,0 +1,3 @@
+dimension 2
+create_box -0.5 0.5 0 0.4 -0.5 0.5
+read_grid /home/yonagi/桌面/Thesis/spartacus/examples_USP/circle_2D_hypersonic/data_dsmc/finalgrid.dat

@@ -5,7 +5,7 @@
 # Feng Kai 
 # kfeng@buaa.edu.cn 
 ###########################################################
-variable collision_style index usp
+variable collision_style index dsmc
 
 clear
 shell			mkdir data_${collision_style}
