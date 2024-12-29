@@ -1,23 +1,29 @@
 {
-   
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "g++ - Build and debug active file",
-            "type": "cppdbg",
-            "request": "attach",
-            "processId": "${command:pickProcess}",
-            "program": "${workspaceFolder}/build/src/spa_mpi",
-            "MIMode": "gdb",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                }
-            ],
-            //"preLaunchTask": "C/C++: g++ build active file",
-            "miDebuggerPath": "/usr/bin/gdb"
-        }
+            "name": "Python 调试程序: 当前文件",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        // {
+        //     "name": "g++ - Build and debug active file",
+        //     "type": "cppdbg",
+        //     "request": "attach",
+        //     "processId": "${command:pickProcess}",
+        //     "program": "${workspaceFolder}/build/src/spa_mpi",
+        //     "MIMode": "gdb",
+        //     "setupCommands": [
+        //         {
+        //             "description": "Enable pretty-printing for gdb",
+        //             "text": "-enable-pretty-printing",
+        //             "ignoreFailures": true
+        //         }
+        //     ],
+        //     //"preLaunchTask": "C/C++: g++ build active file",
+        //     "miDebuggerPath": "/usr/bin/gdb"
+        // }
     ]
 }
