@@ -47,3 +47,5 @@ Thumbs.db
 /src/out/
 /examples/out/
 /lib/kokkos/out/
+
+examples_USP/circle_2D_subsonic
